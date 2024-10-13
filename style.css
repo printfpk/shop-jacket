@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255,);
+}
+#nav{
+  height: 100px;
+   width: 100%;
+   /*background-color: red;*/
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 30px;
+   padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 50%;
+}
+#center{
+    width: 100%;
+    /*background-color: blueviolet;*/
+    padding: 19px 80px;
+}
+#center h1{
+   font-size: 65px;font-weight: 500;
+   line-height: 75px;
+
+}
+#center-in{
+    height: 150px;
+    /*background-color: brown;*/
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2;
+}
+#right{
+    width: 22%;
+}
+.elem{
+    /*background-color: blue;*/
+    /*margin: 1px;*/
+    padding: 15px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.elem:hover i{
+    opacity: 1;
+}
+#bottom{
+    height: 33%;
+    width: 100%;
+    /*background-color: rosybrown;*/
+    background-image: url(https://images.pexels.com/photos/21345902/pexels-photo-21345902/free-photo-of-brunette-woman-in-jacket-crouching-in-studio.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}   
